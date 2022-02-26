@@ -1,0 +1,106 @@
+
+/* -------------------------------  header  ----------------------------- */
+
+
+.header{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 80px;
+    width: 70%;
+    margin: 0px auto;
+    background-color: #FAD7A0;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.name{
+    height: 80%;
+    width: 40%;
+    margin: auto;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.buttons_nav{
+    height: 80%;
+    width: 80%;
+    padding: 10px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+  margin-right: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size:20px;
+  padding: 18px 16px;
+  text-decoration: none;
+  background-color: #333;
+  border-radius: 25px;
+
+}
+
+li a:hover {
+  background-color: green;
+}
+
+/* -------------------------------  table product view  ----------------------------- */
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.add_chart_form{
+	margin: 0px;
+    padding: 0px;
+}
+
+.add_form_content{
+	display: grid;
+    grid-template-columns: auto auto;
+	margin: 0px;
+    padding: 5px;
+}
+
+.add_chart_button{
+	color: white;
+    text-align: center;
+    font-size:20px;
+    background-color: #333;
+    border-radius: 25px;
+}
+
+.add_chart_button:hover{
+	background-color: green;
+}
+
+
+.quantity_input{
+	width: 40px;
+    height: 25px;
+}
+
+
