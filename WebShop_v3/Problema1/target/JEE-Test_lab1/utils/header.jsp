@@ -4,8 +4,8 @@
     </div>
     <div class="buttons_nav">
     	<ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#news">Open chart</a></li>
+          <li><a href="./home">Home</a></li>
+          <li><a href="./shopping_cart">Open chart</a></li>
         </ul>
     </div>
 </div>

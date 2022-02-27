@@ -7,5 +7,40 @@
 
 
 
+  <servlet>
+    <servlet-name>Home</servlet-name>
+    <servlet-class>servlets.ReadProducts</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddProductMethod</servlet-name>
+    <servlet-class>servlets.AddProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddProductToChart</servlet-name>
+    <servlet-class>servlets.AddProductToChart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetShoppingCart</servlet-name>
+    <servlet-class>servlets.ShoppingCart</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddProductMethod</servlet-name>
+    <url-pattern>/addProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddProductToChart</servlet-name>
+    <url-pattern>/add_product_to_chart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetShoppingCart</servlet-name>
+    <url-pattern>/shopping_cart</url-pattern>
+  </servlet-mapping>
+
 
 </web-app>

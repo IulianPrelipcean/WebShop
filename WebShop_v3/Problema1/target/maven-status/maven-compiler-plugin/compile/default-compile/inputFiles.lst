@@ -1,4 +1,12 @@
-/home/iulian0user/Media/work/Interships/YoungCulture/WebShop/WebShop_v3/Problema1/src/main/java/beans/Chart.java
-/home/iulian0user/Media/work/Interships/YoungCulture/WebShop/WebShop_v3/Problema1/src/main/java/beans/Product.java
-/home/iulian0user/Media/work/Interships/YoungCulture/WebShop/WebShop_v3/Problema1/src/main/java/beans/Category.java
-/home/iulian0user/Media/work/Interships/YoungCulture/WebShop/WebShop_v3/Problema1/src/main/java/HelloServlet.java
+/home/iulian0user/Media/work/Interships/YoungCulture/WebShop/WebShop_v3/Problema1/src/main/java/servlets/ShoppingCart.java
+/home/iulian0user/Media/work/Interships/YoungCulture/WebShop/WebShop_v3/Problema1/src/main/java/beans/category/CategoryList.java
+/home/iulian0user/Media/work/Interships/YoungCulture/WebShop/WebShop_v3/Problema1/src/main/java/beans/cart/Cart.java
+/home/iulian0user/Media/work/Interships/YoungCulture/WebShop/WebShop_v3/Problema1/src/main/java/servlets/HelloServlet.java
+/home/iulian0user/Media/work/Interships/YoungCulture/WebShop/WebShop_v3/Problema1/src/main/java/servlets/AddProductToChart.java
+/home/iulian0user/Media/work/Interships/YoungCulture/WebShop/WebShop_v3/Problema1/src/main/java/beans/category/Category.java
+/home/iulian0user/Media/work/Interships/YoungCulture/WebShop/WebShop_v3/Problema1/src/main/java/beans/Logs.java
+/home/iulian0user/Media/work/Interships/YoungCulture/WebShop/WebShop_v3/Problema1/src/main/java/beans/product/ProductList.java
+/home/iulian0user/Media/work/Interships/YoungCulture/WebShop/WebShop_v3/Problema1/src/main/java/servlets/AddProduct.java
+/home/iulian0user/Media/work/Interships/YoungCulture/WebShop/WebShop_v3/Problema1/src/main/java/beans/product/Product.java
+/home/iulian0user/Media/work/Interships/YoungCulture/WebShop/WebShop_v3/Problema1/src/main/java/beans/cart/CartList.java
+/home/iulian0user/Media/work/Interships/YoungCulture/WebShop/WebShop_v3/Problema1/src/main/java/servlets/ReadProducts.java

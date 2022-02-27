@@ -1,4 +1,12 @@
-beans/Product.class
-beans/Category.class
-HelloServlet.class
-beans/Chart.class
+servlets/HelloServlet.class
+beans/cart/Cart.class
+servlets/ShoppingCart.class
+beans/Logs.class
+servlets/AddProduct.class
+beans/category/CategoryList.class
+beans/product/Product.class
+servlets/AddProductToChart.class
+servlets/ReadProducts.class
+beans/product/ProductList.class
+beans/category/Category.class
+beans/cart/CartList.class
