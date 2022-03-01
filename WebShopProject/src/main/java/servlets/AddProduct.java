@@ -23,10 +23,6 @@ public class AddProduct extends HttpServlet {
 
         XmlMapper xmlMapper = new XmlMapper();
 
-//        if (!file_product.exists() || !file_category.exists()) {
-//            httpServletResponse.sendError(404, "File not found on drive!");
-//        }
-
         try {
             // populate product file
             Product product_1 = new Product(1, "Lenovo", "foarte bun", 2, 20, 10);

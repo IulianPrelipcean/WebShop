@@ -24,11 +24,6 @@ public class ReadProducts extends HttpServlet {
 
         XmlMapper xmlMapper = new XmlMapper();
 
-//        if (!file_product.exists() && !file_category.exists()) {
-//            response.sendError(404, "File not found!");
-//        }
-
-
         try {
             int category_id = 0;
             String category_type = request.getParameter("category_type");
