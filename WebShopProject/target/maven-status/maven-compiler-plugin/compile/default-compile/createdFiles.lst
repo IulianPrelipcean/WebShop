@@ -1,0 +1,10 @@
+servlets/AddProductToCart.class
+beans/cart/Cart.class
+servlets/ShoppingCart.class
+servlets/AddProduct.class
+beans/category/CategoryList.class
+beans/product/Product.class
+servlets/ReadProducts.class
+beans/product/ProductList.class
+beans/category/Category.class
+beans/cart/CartList.class
