@@ -5,7 +5,6 @@
 <html >
     <head>
         <link href="assets/css/style.css" rel="stylesheet"  type="text/css" />
-
     </head>
 
     <title>
@@ -14,20 +13,19 @@
 
     <body>
 
-        ${category}
-
         <jsp:include page="utils/header.jsp"></jsp:include>
 
         <div class="category">
             <form action="./home">
                 <label for="category_type">Choose a category:</label>
                 <select name="category_type" id="category_type">
-                    <option value="laptop">Laptop</option>
-                    <option value="TV">TV</option>
-                    <option value="phone">Phone</option>
+                    <c:forEach var="category_option" items="${category_list }">
+                        <option value="${category_option.getCategory_name()}">${category_option.getCategory_name()}</option>
+                    </c:forEach>
                 </select>
                 <input class="cart_button" type="submit" value="Sort by category">
             </form>
+            <p>Selected category: ${selected_category}</p>
         </div
 
 
@@ -63,6 +61,7 @@
             </table>
         </div>
 
+        <jsp:include page="utils/footer.jsp"></jsp:include>
 
     </body>
 </html>

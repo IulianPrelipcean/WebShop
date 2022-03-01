@@ -42,8 +42,9 @@
                 </c:forEach>
             </table>
         </div>
-        <p>Total price: ${total_price} </p>
+        <p><h4>Total price: ${total_price} </h4></p>
 
+        <jsp:include page="utils/footer.jsp"></jsp:include>
     </body>
 </html>
 

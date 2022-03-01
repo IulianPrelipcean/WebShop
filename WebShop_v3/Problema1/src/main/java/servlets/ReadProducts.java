@@ -30,10 +30,10 @@ public class ReadProducts extends HttpServlet {
         CategoryList category_list = xmlMapper.readValue(file_category, CategoryList.class);
         ProductList productListRead = xmlMapper.readValue(file_product, ProductList.class);
 
-        //request.setAttribute("category", category_type);
-
-        if(category_type != null){
-
+        if(category_type == null || category_type.equals("All Product")){
+            request.setAttribute("productList", productListRead.getProductList());
+        }
+        else{
             for(Category category: category_list.getCategory()){
                 if(category_type.equals(category.getCategory_name())){
                     category_id = category.getCategory_id();
@@ -48,9 +48,8 @@ public class ReadProducts extends HttpServlet {
             }
             request.setAttribute("productList", productListSorted.getProductList());
         }
-        else{
-            request.setAttribute("productList", productListRead.getProductList());
-        }
+        request.setAttribute("selected_category", category_type);
+        request.setAttribute("category_list", category_list.getCategory());
 
         request.getRequestDispatcher("./index.jsp").forward(request, response);
     }

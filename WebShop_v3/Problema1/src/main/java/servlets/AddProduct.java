@@ -25,14 +25,20 @@ public class AddProduct extends HelloServlet{
             return;
         }
 
-        Product product_1 = new Product(1, "produs1", "foarte bun", 1, 20, 10);
-        Product product_2 = new Product(2, "produs2", "foarte rau", 2, 40, 15);
-        Product product_3 = new Product(3, "produs3", "foarte satisfacator", 2, 30, 20);
+        Product product_1 = new Product(1, "Lenovo", "foarte bun", 2, 20, 10);
+        Product product_2 = new Product(2, "MacBook", "foarte bun", 2, 40, 15);
+        Product product_3 = new Product(3, "Samsung", "foarte bun", 4, 30, 20);
+        Product product_4 = new Product(4, "IPhone", "foarte bun", 4, 30, 20);
+        Product product_5 = new Product(5, "Philips", "foarte bun", 3, 30, 20);
+        Product product_6 = new Product(6, "LG", "foarte bun", 3, 30, 20);
 
         ProductList productList = new ProductList();
         productList.addProduct(product_1);
         productList.addProduct(product_2);
         productList.addProduct(product_3);
+        productList.addProduct(product_4);
+        productList.addProduct(product_5);
+        productList.addProduct(product_6);
 
 
         XmlMapper xmlMapper = new XmlMapper();
@@ -41,18 +47,18 @@ public class AddProduct extends HelloServlet{
 
 
 
-        Category category_1 = new Category(1, "laptop");
-        Category category_2 = new Category(2, "TV");
-        Category category_3 = new Category(3, "phone");
+        Category category_1 = new Category(1, "All Product");
+        Category category_2 = new Category(2, "laptop");
+        Category category_3 = new Category(3, "TV");
+        Category category_4 = new Category(4, "phone");
 
         CategoryList categoryList = new CategoryList();
         categoryList.addCategory(category_1);
         categoryList.addCategory(category_2);
         categoryList.addCategory(category_3);
+        categoryList.addCategory(category_4);
 
         xmlMapper.writeValue(file_category, categoryList);
-
-
 
         httpServletResponse.getWriter().print("\n\nProducts added");
     }

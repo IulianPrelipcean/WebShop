@@ -1,7 +1,6 @@
 servlets/HelloServlet.class
 beans/cart/Cart.class
 servlets/ShoppingCart.class
-beans/Logs.class
 servlets/AddProduct.class
 beans/category/CategoryList.class
 beans/product/Product.class
